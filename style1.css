@@ -19,7 +19,7 @@ body {
     width: 100%;
     position: relative;
     padding-bottom: 100px;
-    /* background: linear-gradient(180deg, #070669 0%, #120eff 100%); */
+    /* background: linear-gradient(180deg, #070669 0%, #120eff 100%); */ 
 }
 
 
@@ -31,7 +31,7 @@ body {
     box-shadow : 20px 20px 100px black;
 }
 
-/* ---------- LOGO / TITLE ---------- */
+
 .C, .W {
     position: absolute;
     font-style: italic;
@@ -42,12 +42,12 @@ body {
 }
 .C {
     font-weight: 300;
-    left: 146px;
+    left: 96px;
     top: 55px;
 }
 .W {
     font-weight: 800;
-    left: 109px;
+    left: 62px;
     top: 29px;
     
 }
@@ -71,15 +71,15 @@ body {
 
 .jj {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 34px;
     position: absolute;
-    top: 24px;
-    left: 33px;
+    top: 17px;
+    left: 9px;
     color: #000000;
 }
 .sm{
     position: absolute;
-    top: 52px;
+    top: 36px;
     right: 33px;
 }
 .sm a{
@@ -90,11 +90,11 @@ body {
 }
 .nav-bar{
     position: absolute;
-    top: 65px;
-    right: 109px;
+    top: 85px;
+    right: 85px;
 }
 .nav-bar a{
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
     text-decoration: none;
 }
@@ -115,25 +115,27 @@ body {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     scroll-behavior: smooth;
     gap: 50px;
-    padding: 92px 37px 0;
-}
+padding: 77px 8px 0;}
 .Rectangle4::-webkit-scrollbar {
     height: 4px;
 }
 .Rectangle4::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(232, 228, 228, 0.3);
     border-radius: 4px;
 }
-
+.ll a{
+    height: 101%;
+    width: 101%;
+}
 
 .ll {
     flex: 0 0 auto;
     scroll-snap-align: center;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -144,8 +146,8 @@ body {
 }
 
 .ll img {
-    width:305px;
-    height: 405px;
+    width: 101%;
+    height: 101%;
     object-fit: cover;
     transition: all 0.5s ease;
 }
